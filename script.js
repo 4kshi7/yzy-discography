@@ -56,7 +56,7 @@ locoScroll();
 gsap.to("#main #img", {
   width: "28vh",
   height: "28vh",
-  rotate: 719,
+  rotate: 721,
   top: "9.5%",
   scrollTrigger: {
     trigger: "#img",
@@ -107,3 +107,33 @@ var data = [
 //     scrub:2,
 //   }
 // })
+
+
+function yeezus_animation(){
+  var allH1 = document.querySelectorAll("#page2 h1");
+  allH1.forEach(function (elem) {
+    var clutter = "";
+    var h1Text = elem.textContent;
+    var splittedText = h1Text.split("");
+    splittedText.forEach(function (e) {
+      clutter += `<span>${e}</span>`;
+    });
+    elem.innerHTML = clutter;
+    
+  });
+
+  gsap.to("#page2 h1 span", {
+    color: "#1A2425",
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: "#page2 h1",
+      scroller: "#main",
+      // markers: true,
+      start: "top 70%",
+      end: "top -10%",
+      scrub: 1,
+    },
+  });
+}
+
+yeezus_animation()
