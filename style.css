@@ -225,7 +225,7 @@ body {
 #yeezus-flap {
   position: absolute;
   z-index: 4;
-  left: 54.5%;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -243,10 +243,9 @@ body {
 
 #yeezus-flap img {
   object-fit: cover;
-  top: -5vh;
-  left: 9vh;
-  height: 10vh;
-  width: 10vh;
+  /* left: 50%; */
+  /* transform: translateX(-35%); */
+  height: 27vh;
 }
 
 #page4 {

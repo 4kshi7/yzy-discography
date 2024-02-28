@@ -57,7 +57,7 @@ gsap.to("#main #img", {
   width: "198px",
   height: "198px",
   rotate: 898,
-  top: "10%",
+  top: "9.65%",
   scrollTrigger: {
     trigger: "#img",
     scroller: "#main",
