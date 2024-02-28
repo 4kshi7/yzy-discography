@@ -109,8 +109,9 @@ body {
 #img {
   position: absolute;
   z-index: 3;
-  height: 680px;
-  width: 680px;
+  height: 100vh;
+  /* width: 680px; */
+  object-fit: cover;
   left: 50%;
   transform: translate(-50%);
 }
@@ -212,8 +213,8 @@ body {
 #yeezus-cd {
   position: absolute;
   z-index: 2;
-  height: 28vh;
-  width: 28vh;
+  height: 28.5vh;
+  width: 28.5vh;
 }
 
 #yeezus-cd img {
@@ -229,6 +230,14 @@ body {
   transform: translateX(-50%);
 }
 
+
+#yeezus-flap img {
+  object-fit: cover;
+  /* left: 50%; */
+  /* transform: translateX(-35%); */
+  height: 28vh;
+}
+
 #yeezus-title {
   position: absolute;
   z-index: 4;
@@ -241,12 +250,6 @@ body {
     font-weight: 500;
 }
 
-#yeezus-flap img {
-  object-fit: cover;
-  /* left: 50%; */
-  /* transform: translateX(-35%); */
-  height: 27vh;
-}
 
 #page4 {
   /* background: white; */

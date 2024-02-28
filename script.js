@@ -54,10 +54,10 @@ function locoScroll() {
 locoScroll();
 
 gsap.to("#main #img", {
-  width: "198px",
-  height: "198px",
-  rotate: 898,
-  top: "9.65%",
+  width: "28vh",
+  height: "28vh",
+  rotate: 719,
+  top: "9.5%",
   scrollTrigger: {
     trigger: "#img",
     scroller: "#main",
